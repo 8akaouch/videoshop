@@ -1,9 +1,15 @@
 = VideoShop - A Salespoint example project
 :experimental:
 
+<<<<<<< HEAD
 This project is a fork of https://github.com/st-tu-dresden/videoshop  where it is used to make students familiar with basic technologies they're going to use during the Software Engineering Lab at TU Dresden.
 
 At Hochschule Merseburg, this project is used for exactly the same purpose in the Software Project (module Programmierung 3).
+=======
+This project is a fork of https://github.com/st-tu-dresden/videoshop where it is used to make students familiar with basic technologies they're going to use during the Software Engineering Lab at Technical University of Dresden.
+
+At Hochschule Merseburg, this project is used for exactly the same purpose in the Software-Project (module Programmierung 3).
+>>>>>>> 1e9770a19a13496bc7e39fa2258ef9c5a176bc0c
 
 ## Quickstart
 
@@ -12,7 +18,11 @@ Also, note that you have to run `mvnw.cmd` instead of `./mvnw` if you run Window
 
 [source, shell]
 ----
+<<<<<<< HEAD
 $ git clone https://github.com/HOME-programming-pub/videoshop
+=======
+$ git clone https://github.com/HOME-programming-lab/videoshop
+>>>>>>> 1e9770a19a13496bc7e39fa2258ef9c5a176bc0c
 $ cd videoshop
 $ ./mvnw clean package
 $ ./mvnw spring-boot:run
